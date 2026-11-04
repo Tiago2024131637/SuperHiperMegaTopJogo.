@@ -1,7 +1,7 @@
 #ifndef SOLO_H
 #define SOLO_H
 
-#include "Terreno.h"
+#include "../include/Terreno.h"
 
 class Solo : public Terreno {
 public:

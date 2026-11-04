@@ -1,5 +1,5 @@
-#include "Fabrica.h"
-#include "Settings.h"
+#include "../include/Fabrica.h"
+#include "../include/Settings.h"
 #include <iostream>
 
 Fabrica::Fabrica(int linhas, int colunas) {

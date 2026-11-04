@@ -4,22 +4,22 @@ project(TrabalhoPraticoMeta1)
 set(CMAKE_CXX_STANDARD 26)
 
 add_executable(TrabalhoPraticoMeta1 main.cpp
-        Ecra.cpp
-        Ecra.h
-        Simulador.cpp
-        Simulador.h
-        Terreno.cpp
-        Terreno.h
-        ParserComandos.cpp
-        ParserComandos.h
-        Comando.h
+        src/Ecra.cpp
+        include/Ecra.h
+        src/Simulador.cpp
+        include/Simulador.h
+        src/Terreno.cpp
+        include/Terreno.h
+        src/ParserComandos.cpp
+        include/ParserComandos.h
+        include/Comando.h
         cmake-build-debug/solo.cpp
         cmake-build-debug/solo.h
-        Solo.cpp
-        Solo.h
-        Cratera.cpp
-        Cratera.h
-        Deposito.cpp
-        Deposito.h
-        Fabrica.cpp
-        Fabrica.h)
+        src/Solo.cpp
+        include/Solo.h
+        src/Cratera.cpp
+        include/Cratera.h
+        src/Deposito.cpp
+        include/Deposito.h
+        src/Fabrica.cpp
+        include/Fabrica.h)

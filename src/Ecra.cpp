@@ -2,7 +2,7 @@
 // Created by andre on 22/10/2026.
 //
 
-#include "Ecra.h"
+#include "../include/Ecra.h"
 #include <iostream>
 using namespace std;
 Ecra::Ecra(int l, int c) {

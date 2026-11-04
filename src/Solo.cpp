@@ -1,4 +1,6 @@
-#include "Solo.h"
+#include "../include/Solo.h"
+
+#include <string>
 
 using namespace std;
 
@@ -6,7 +8,7 @@ char Solo::getCaracter() const {
   return ' ';
 }
 
-string Solo::getDescricao() const {
+std::string Solo::getDescricao() const {
   return "Solo";
 }
 

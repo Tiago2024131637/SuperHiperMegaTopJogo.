@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include "Ecra.h"
-#include "Settings.h"
-#include "Simulador.h"
+#include "include/Ecra.h"
+#include "include/Settings.h"
+#include "include/Simulador.h"
 
 int main() {
     // 1. Criar o Ecrã com as dimensões máximas do Settings
