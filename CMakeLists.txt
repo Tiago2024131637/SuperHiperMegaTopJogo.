@@ -13,7 +13,6 @@ add_executable(TrabalhoPraticoMeta1 main.cpp
         src/ParserComandos.cpp
         include/ParserComandos.h
         include/Comando.h
-        cmake-build-debug/solo.cpp
         cmake-build-debug/solo.h
         src/Solo.cpp
         include/Solo.h
@@ -22,4 +21,7 @@ add_executable(TrabalhoPraticoMeta1 main.cpp
         src/Deposito.cpp
         include/Deposito.h
         src/Fabrica.cpp
-        include/Fabrica.h)
+        include/Fabrica.h
+        src/start.cpp
+        include/Start.h
+)

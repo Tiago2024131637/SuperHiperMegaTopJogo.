@@ -3,19 +3,20 @@
 //
 
 #include "../include/Simulador.h"
-#include "../include/ParserComandos.h"
 #include <iostream>
 #include <string>
-#include<iostream>
-#include<sstream>
+#include <sstream>
 #include "../include/Ecra.h"
-#include "../include/ParserComandos.h"
+
 Simulador::Simulador() : ecra(Settings::ecra_max_linhas, Settings::ecra_max_colunas), aExecutar(true){}
 void Simulador::executar() {
     std::string linhaComando;
+
     while (aExecutar) {
+
         atualizaEcra();
         ecra.Mostra();
+
         //Pede a linha de comando
         std:: cout<< "\nComando:";
         if (!getline(std::cin,linhaComando)) {

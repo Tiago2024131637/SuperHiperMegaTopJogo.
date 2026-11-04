@@ -5,13 +5,13 @@
 Comando* ParserComandos::parse(const std::string& linhaTexto) {
     if (linhaTexto.empty()) return nullptr;
 
-    std::stringstream iss(linhaTexto);
+    std::stringstream inputStream(linhaTexto);
     std::string cmd;
-    iss >> cmd;
+    inputStream >> cmd;
 
     if (cmd == "fabrica") {
-        int nl, nc;
-        if (iss >> nl >> nc) {
+        int numLin, numCol;
+        if (inputStream >> numLin >> numCol) {
 
             return nullptr;
         }
@@ -21,7 +21,7 @@ Comando* ParserComandos::parse(const std::string& linhaTexto) {
 
     if (cmd == "avanca") {
         int n = 1;
-        iss >> n;
+        inputStream >> n;
         return nullptr;
     }
 

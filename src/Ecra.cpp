@@ -13,8 +13,7 @@ Ecra::Ecra(int l, int c) {
         nlinhas=1;
     if (ncolunas<1)
         ncolunas=1;
-    cursorLinha=0;
-    cursorColuna=0;
+    ResetLinCol();
     limpa();
 }
 void Ecra::limpa() {
@@ -23,6 +22,10 @@ void Ecra::limpa() {
             buffer[i][j] = ' ';
         }
     }
+    ResetLinCol();
+}
+
+void Ecra::ResetLinCol() {
     cursorLinha=0;
     cursorColuna=0;
 }
@@ -87,7 +90,7 @@ void Ecra::Mostra() const {
         for (int j=0;j<ncolunas;j++) {
             std::cout << buffer[i][j] ;
         }
-        std::cout << "\n";
+        std::cout << "" << std::endl;
     }
 }
 

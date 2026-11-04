@@ -19,6 +19,9 @@ private:
     public:
     Ecra(int l=Settings::ecra_max_linhas,int c = Settings::ecra_max_colunas);
     void limpa();
+
+    void ResetLinCol();
+
     void posicionaCursor(int l, int c);
     void escrevaChar(char ch);
     void escrevaChar(int l,int c,char ch);
