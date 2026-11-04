@@ -1,0 +1,3 @@
+C:/Users/naove/OneDrive/Ambiente de Trabalho/Faculdade/quinto Semestre/POO/TrabPrat/TrabalhoPraticoMeta1FINAL/TrabalhoPraticoMeta1/cmake-build-debug/CMakeFiles/TrabalhoPraticoMeta1.dir
+C:/Users/naove/OneDrive/Ambiente de Trabalho/Faculdade/quinto Semestre/POO/TrabPrat/TrabalhoPraticoMeta1FINAL/TrabalhoPraticoMeta1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/naove/OneDrive/Ambiente de Trabalho/Faculdade/quinto Semestre/POO/TrabPrat/TrabalhoPraticoMeta1FINAL/TrabalhoPraticoMeta1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

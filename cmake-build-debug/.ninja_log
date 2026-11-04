@@ -1,0 +1,12 @@
+# ninja log v6
+11	1702	8153670919570285	CMakeFiles/TrabalhoPraticoMeta1.dir/Simulador.cpp.obj	ed5d6f4971edd2c4
+25	439	8154946817685160	build.ninja	65c24b18b07ea833
+22	166	8143771696855547	CMakeFiles/TrabalhoPraticoMeta1.dir/solo.cpp.obj	2046e75a95735603
+8	909	8153674957985619	CMakeFiles/TrabalhoPraticoMeta1.dir/main.cpp.obj	72f30a8b58a031b4
+88	1063	8144623043635667	CMakeFiles/TrabalhoPraticoMeta1.dir/Deposito.cpp.obj	61b32269e77a9778
+31	591	8143754107390225	CMakeFiles/TrabalhoPraticoMeta1.dir/Terreno.cpp.obj	ca5ed5ab7d177b25
+24	916	8153672749383251	CMakeFiles/TrabalhoPraticoMeta1.dir/Fabrica.cpp.obj	b1e519a6bc1ffd6f
+139	1879	8153663688909922	CMakeFiles/TrabalhoPraticoMeta1.dir/Ecra.cpp.obj	37e4893cac063792
+21	916	8153674958128434	CMakeFiles/TrabalhoPraticoMeta1.dir/ParserComandos.cpp.obj	879cd2d0cebef64d
+917	1204	8153674967082083	TrabalhoPraticoMeta1.exe	7f9cdefc3e883c03
+34	618	8143771696984634	CMakeFiles/TrabalhoPraticoMeta1.dir/Cratera.cpp.obj	6b0ba70c498caeb9
