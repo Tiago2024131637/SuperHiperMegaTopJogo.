@@ -8,7 +8,7 @@
 #include <string>
 #include<iostream>
 #include<sstream>
-#include "Ecra.h"
+#include "../include/Ecra.h"
 #include "ParserComandos.h"
 Simulador::Simulador() : ecra(Settings::ecra_max_linhas, Settings::ecra_max_colunas), aExecutar(true){}
 void Simulador::executar() {

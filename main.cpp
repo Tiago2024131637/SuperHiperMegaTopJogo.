@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include "Ecra.h"
+#include "include/Ecra.h"
 #include "Settings.h"
 #include "Simulador.h"
 
